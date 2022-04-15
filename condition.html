@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Statement</title>
+</head>
+<body>
+    <h2>You are going to the Trip</h2>
+    <p id="Visa"></p>
+    <script>
+        document.getElementById("Visa").innerHTML=" You have Paris tourist VISA";
+        var Trip='Singapore';
+        switch(Trip)
+        {
+            case 'New york':
+                document.write("Enjoy your New york Trip");
+                break;
+            case 'Switzerland':
+                document.write("Enjoy your Switzerland Trip");
+                break;
+            default:
+                document.write("Enjoy your Paris Trip");
+        }
+    </script>
+</body>
+</html>
